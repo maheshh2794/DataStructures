@@ -4,7 +4,7 @@ def toh(n,s,d,a):
         print(f"{n} Moves from {s} to {d}")
         return
     toh(n-1,s,a,d)
-    print(f"{n} Moves from {s} to {a}")
+    print(f"{n} Moves from {s} to {d}")
     toh(n-1,a,d,s)
 
 toh(3,"A","B","C")
