@@ -18,9 +18,6 @@ def quickSort(ar):
             ar[a],ar[b] = ar[b],ar[a]
             a+=1
             b+=1
-        # elif ar[a]==ar[pv]:
-        #     a+=1
-        #     b+=1
         else:
             a+=1
 
